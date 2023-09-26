@@ -1,0 +1,185 @@
+/* Modifica el cursor */
+body{
+    cursor: url('./Images/cursor.png'), auto;
+}
+
+/* Creacion de fuentes */
+@font-face {
+    font-family: '04B';
+    src: url('./Fonts/04B_30__.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: '8-bit';
+    src: url('./Fonts/8-bit_Arcade_In.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: '3Dventure';
+    src: url('./Fonts/3Dventure.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'BabyBlock';
+    src: url('./Fonts/babyblocks.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+/* Cambiar el color de fondo */
+main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(26, 26, 26);
+}
+
+/* Imagen de fondo con sus propiedades */
+/* header{
+    height: 250px;
+    background-image: url(/Images/966315.png);
+    background-size: cover;
+    background-position: center 59%;
+    background-repeat:no-repeat;
+} */
+
+header{
+    height: 250px;
+    background-image: url('./Images/966321.jpg');
+    background-size: cover;
+    background-position: center 85%;
+    background-repeat:no-repeat;
+}
+
+/* Centra el div del header */
+.container-head {
+    display: block;
+    text-align: center;
+}
+
+/* Dimensiones del logo */
+#logo{
+    display: block;
+    margin: auto;
+    width: 150px;
+    padding-top: 30px;
+}
+
+/* Modifica el texto "Videojuegos" */
+.container-link p{
+    font-family: '3Dventure';
+    font-size: 70px;
+    text-decoration: none;
+    color:rgb(242, 242, 242);
+    transition: .3s;
+}
+
+/* Cambio de color al pasar el mouse */
+.container-link p:hover{
+    font-size: 80px;
+    transition: .3s;
+    color: white;
+}
+
+/* Crea animación en header */
+.container-link{
+    animation: floating 8s linear infinite;
+}
+
+
+/* Caracterustucas de la animación */
+@keyframes floating{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* Cambia el color a Sugerencias*/
+#sug{
+    color:black;
+}
+
+/* Modifica el reloj */
+input{
+    background-color: rgb(26, 26, 26);
+    border-radius: 100px;
+    padding: 1px;
+    color: white;
+}
+
+/* Ajustar el tamaño de imagenes*/
+.carousel-item {
+    background-size: cover;
+    max-height: 500px;
+    background-repeat:no-repeat;
+}
+
+/* Dimension de las imagenes de la galeria */
+#galeria img{
+    width: 100%;
+    height: 200px;
+}
+
+/* Espacio entre las imagenes */
+#galeria .col-lg-4{
+    padding: 15px;
+}
+
+
+/* Eefecto al pasar el mouse sobre imagenes */
+#galeria img:hover{
+    border: 5px solid #f7f7f7;
+    transition: .1s;
+}
+
+/* Separar el contenido del main*/
+#separacion{
+    padding: 10px;
+}
+
+/* Tamaño de imagenes (Clasics) */
+#clasics{
+    height: 300px;
+}
+
+/* Modifica los links (Recomendados)  */
+#linktrailer a{
+    text-decoration: none;
+    color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.card-text a{
+    text-decoration: none;
+}
+
+/* Margin a paginacion */
+.paginacion{
+    margin-top: 50px;
+}
+
+
+.card img:hover{
+    transition: .2s;
+    border: 10px solid #f1f1f1;
+}
+
+.card img{
+    transition: .5s;
+}
+
+.page-item .page-link{
+    color: black;
+}

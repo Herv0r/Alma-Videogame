@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="./Icons/icons8-super-mario-64.png" type="image/x-icon">
+  <title>Videojuegos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/cfad9bf2f5.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Encabezado de la pág -->
+  <header>
+    <div class="container-head">
+      <img src="./Images/Logo-blanco.png" alt="Logo" id="logo">
+      <div class="container-link">
+        <p id="banner">Videojuegos</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Barra de navegación -->
+  <nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
+          id="sug">Sugerencias</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="clasicos.html">Clasicos</a></li>
+          <li><a class="dropdown-item" href="recomendados.html">Recomendados</a></li>
+          <li><a class="dropdown-item" href="online.html">Online mas populares</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Galeria de imagenes -->
+  <main>
+
+  <div class="container">
+    <form>
+      <p style="text-align: center;">
+          <input type="text" size="10" name="mireloj" style="text-align: center;">
+      </p>
+  </form>
+  </div>
+
+  
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/Carrousel/starwars.jpg" class="d-block w-100" alt="..." style="opacity: .8;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>STAR WARS™ Battlefront™ II</h5>
+              <p>¡Demuestra tu valor en la fantasía bélica definitiva de Star Wars™ conStar Wars™ Battlefront™ II.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Carrousel/massefect.jpg" class="d-block w-100" alt="..." style="opacity: .8;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Mass Effect™ Legendary Edition</h5>
+              <p>Una persona es el último bastión entre la humanidad y la mayor amenaza que jamás haya enfrentado.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/Carrousel/sackboy.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sackboy™: Una gran aventura</h5>
+              <p>¿Puedes salvar a Mundo Artesano de las manos del ruin Vex y su horripilante Ponepatas Pararriba... y.
+                convertirte en un legendario Caballero Tejido?</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <section>
+      <hr style="color: white;">
+      <div class="container">
+        <div class="card-body">
+          <h5 class="card-title" style="color: white; text-align: center;">Juegos Free to Play</h5>
+          <p class="card-text" style="color: white; text-align: center;">Descubre una variedad de nuevos juegos
+            gratuitos cada semana.</p>
+          <a href="https://store.steampowered.com/genre/Free%20to%20Play/" target="_blank" class="btn btn-light"
+            style="display: block; margin: auto; width: 120px;">Ir a Steam</a>
+        </div>
+      </div>
+    </section>
+
+    <div style="text-align:center">
+      <hr style="color: white;">
+      <h3 style="color: white;">Tendencias</h1>
+      <hr style="color: white;">
+    </div>
+
+    <div class="container" id="galeria">
+      <div class="row">
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1817070/Marvels_SpiderMan_Remastered/" target="_blank">
+            <img src="./Images/Videojuegos/spiderman.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/252490/Rust/" target="_blank">
+            <img src="./Images/Videojuegos/rust.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/218620/PAYDAY_2/" target="_blank">
+            <img src="./Images/Videojuegos/payday.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/962130/Grounded/" target="_blank">
+            <img src="./Images/Videojuegos/grounded.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1811260/EA_SPORTS_FIFA_23/" target="_blank">
+            <img src="./Images/Videojuegos/fifa.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/" target="_blank">
+            <img src="./Images/Videojuegos/DBD.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1938090/Call_of_Duty_Modern_Warfare_II/" target="_blank">
+            <img src="./Images/Videojuegos/CODMW2.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/" target="_blank">
+            <img src="./Images/Videojuegos/ciberpunk.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/" target="_blank">
+            <img src="./Images/Videojuegos/AOE.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank">
+            <img src="./Images/Videojuegos/godofwar.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1090630/Granblue_Fantasy_Versus/" target="_blank">
+            <img src="./Images/Videojuegos/grandbluefantasy.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1238840/Battlefield_1/" target="_blank">
+            <img src="./Images/Videojuegos/battlefield1.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1240440/Halo_Infinite/" target="_blank">
+            <img src="./Images/Videojuegos/haloinfinite.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1325200/Nioh_2__The_Complete_Edition/" target="_blank">
+            <img src="./Images/Videojuegos/nioh.jpg" alt="Image Galeria">
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <a href="https://store.steampowered.com/app/1196590/Resident_Evil_Village/" target="_blank">
+            <img src="./Images/Videojuegos/resident evil village.jpg" alt="Image Galeria">
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.facebook.com/" target="_blank" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://twitter.com/?lang=es" target="_blank" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.google.com/?hl=es" target="_blank" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/" target="_blank" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/" target="_blank" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+        <!-- Github -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/" target="_blank" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="#">ALMA</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
